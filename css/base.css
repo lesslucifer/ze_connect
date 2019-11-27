@@ -1,0 +1,1176 @@
+
+
+
+/*
+  Template Name: Altron - Multi-Purpose Landing Page Template
+  Theme URL: http://themeforest.net/user/DSA79/
+  Description: Altron - Multi-Purpose Landing Page Template
+  Author: DSAThemes
+  Author URL: http://themeforest.net/user/DSA79
+  Version: 1.0.0
+  Website: www.dsathemes.com
+  Tags: Landing Page, Multipurpose Landing Page, HTML5, CSS3, Bootstrap, Javascript, Responsive, Creative template, One Page, Business, Corporate, Project
+*/
+
+
+
+/* ------------------------------------------ */
+/*             TABLE OF CONTENTS
+/* ------------------------------------------ */
+
+/*   01 - General & Basic Styles   */
+/*   02 - Typography               */
+/*   03 - Preload Animation	       */
+/*   04 - Header & Navigation      */
+/*   05 - Intro      			   */
+/*   06 - Scroll to Top	 	  	   */
+
+
+
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */
+
+html {
+	-webkit-font-smoothing: antialiased;
+} 
+ 
+body {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 15px; 
+	line-height: 23px;
+	font-weight: 400;	
+}
+
+/*------------------------------------------------------------------*/
+/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
+/*-----------------------------------------------------------------*/
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/*------------------------------------------*/
+/*	PAGE CONTENT
+/*------------------------------------------*/
+
+.page-content, section { overflow: hidden; }
+
+/*------------------------------------------*/
+/*	ON SCROLL ANIMATIONS
+/*------------------------------------------*/
+
+.animated { visibility: hidden; }
+.visible { visibility: visible; }
+
+/*------------------------------------------*/
+/*	SPACING & ALIGNMENT
+/*------------------------------------------*/
+
+.wide-100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.wide-80 {
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+
+.wide-70 {
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.wide-60 {
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+
+.wide-50 {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.wide-40 {
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+/*------------------------------------------*/
+/*    Padding Top
+/*------------------------------------------*/
+
+.p-top-100 { padding-top: 100px; }
+.p-top-90 { padding-top: 90px; }
+.p-top-80 { padding-top: 80px; }
+.p-top-70 { padding-top: 70px; }
+.p-top-60 { padding-top: 60px; }
+.p-top-50 { padding-top: 50px; }
+.p-top-40 { padding-top: 40px; }
+.p-top-30 { padding-top: 30px; }
+.p-top-20 { padding-top: 20px; }
+.p-top-10 { padding-top: 10px; }
+
+/*------------------------------------------*/
+/*    Padding Bottom
+/*------------------------------------------*/
+
+.p-bottom-100 { padding-bottom: 100px; }
+.p-bottom-90 { padding-bottom: 90px; }
+.p-bottom-80 { padding-bottom: 80px; }
+.p-bottom-70 { padding-bottom: 70px; }
+.p-bottom-60 { padding-bottom: 60px; }
+.p-bottom-50 { padding-bottom: 50px; }
+.p-bottom-40 { padding-bottom: 40px; }
+.p-bottom-30 { padding-bottom: 30px; }
+.p-bottom-20 { padding-bottom: 20px; }
+.p-bottom-10 { padding-bottom: 10px; }
+
+/*------------------------------------------*/
+/*    Padding Left
+/*------------------------------------------*/
+
+.p-left-60 { padding-left: 60px; }
+.p-left-45 { padding-left: 45px; }
+.p-left-30 { padding-left: 30px; }
+.p-left-20 { padding-left: 20px; }
+.p-left-15 { padding-left: 15px; }
+
+/*------------------------------------------*/
+/*    Padding Right
+/*------------------------------------------*/
+
+.p-right-60 { padding-right: 60px; }
+.p-right-45 { padding-right: 45px; }
+.p-right-30 { padding-right: 30px; }
+.p-right-20 { padding-right: 20px; }
+.p-right-15 { padding-right: 15px; }
+
+/*------------------------------------------*/
+/*    Margin Top
+/*------------------------------------------*/
+
+.m-top-100 { margin-top: 100px; }
+.m-top-90 { margin-top: 90px; }
+.m-top-80 { margin-top: 80px; }
+.m-top-70 { margin-top: 70px; }
+.m-top-60 { margin-top: 60px; }
+.m-top-50 { margin-top: 50px; }
+.m-top-40 { margin-top: 40px; }
+.m-top-30 { margin-top: 30px; }
+.m-top-20 { margin-top: 20px; }
+.m-top-10 { margin-top: 10px; }
+
+/*------------------------------------------*/
+/*    Margin Bottom
+/*------------------------------------------*/
+
+.m-bottom-100 { margin-bottom: 100px; }
+.m-bottom-90 { margin-bottom: 90px; }
+.m-bottom-80 { margin-bottom: 80px; }
+.m-bottom-70 { margin-bottom: 70px; }
+.m-bottom-60 { margin-bottom: 60px; }
+.m-bottom-50 { margin-bottom: 50px; }
+.m-bottom-40 { margin-bottom: 40px; }
+.m-bottom-30 { margin-bottom: 30px; }
+.m-bottom-20 { margin-bottom: 20px; }
+.m-bottom-10 { margin-bottom: 10px; }
+
+/*------------------------------------------*/
+/*   BACKGROUND COLORS FOR DEMOS
+/*------------------------------------------*/
+
+.no-bg { background-color: transparent; }
+.bg-white { background-color: #fff; }
+.bg-dark { background-color: #222; }
+.bg-grey { background-color: #f7f7f4; }
+.bg-blue { background-color: #439fe0; }
+.bg-green { background-color: #56b68b; }
+.bg-lightgreen { background-color: #5bcc24; }
+.bg-red { background-color: #e74c3c; }
+.bg-yellow { background-color: #f1c40f; }
+
+
+/*------------------------------------------*/
+/*   BORDER SETTINGS
+/*------------------------------------------*/
+
+.b-top {
+	border-top: 1px solid #ddd;
+}
+
+.b-bottom {
+	border-bottom: 1px solid #ddd;
+}
+
+
+
+/* ==========================================================================
+   02. TYPOGRAPHY
+   ========================================================================== */
+   
+/*------------------------------------------*/
+/*	HEADERS
+/*------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+
+h4 {
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: 900;
+	margin-bottom: 12px;
+}
+
+h4.h4-lg {
+	font-size: 18px;
+	line-height: 18px;
+} 
+
+h3 {
+	font-size: 28px;
+	line-height: 36px;
+	margin-bottom: 20px;
+} 
+
+h3.h3-thin {
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: 500;
+}
+
+/*------------------------------------------*/
+/*	 PARAGRAPHS
+/*------------------------------------------*/
+
+p {
+	color: #444;
+	font-size: 15px; 
+	line-height: 23px;
+}
+
+p.p-lg {
+	color: #666;
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom: 20px;
+	font-weight: 300;
+} 
+
+/*------------------------------------------*/
+/*	 LISTS
+/*------------------------------------------*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*------------------------------------------*/
+/*	 LINK SETTINGS
+/*------------------------------------------*/
+
+a {
+	text-decoration: none;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+a:hover {
+	color: #444;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+/*------------------------------------------*/
+/*	IMAGE SETTINGS
+/*------------------------------------------*/
+
+.img-responsive {
+	display: inline-block; 
+}
+
+/*------------------------------------------*/
+/*	 BUTTON SETTINGS
+/*------------------------------------------*/
+
+.btn {
+	background-color: #00c1f0;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 900;	
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	border: 2px solid #00c1f0;
+	padding: 12px 28px;
+	margin-right: 8px;
+ 	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;	
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	 Large Button 
+/*------------------------------------------*/
+
+.btn.btn-lg {
+	font-size: 13px;
+	font-weight: 900;	
+	padding: 14px 30px;	
+}
+
+/*------------------------------------------*/
+/*	 Button Transparent Background
+/*------------------------------------------*/
+
+.btn.btn-tra {
+	background-color: transparent;
+	color: #00c1f0;
+}
+
+.white-color .btn {
+	background-color: #00c1f0;
+	color: #fff;
+	border-color: #00c1f0;
+}
+
+.white-color .btn.btn-tra {
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+}
+
+/*------------------------------------------*/
+/*	 Button Hover
+/*------------------------------------------*/
+
+.btn:hover,
+.btn:focus {
+	background-color: #333;
+	color: #fff;
+	border-color: #333;
+}
+
+.white-color .btn:hover {
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+}
+
+.btn.btn-tra:hover,
+.btn.btn-tra:focus,
+.white-color .btn.btn-tra:hover,
+.white-color .btn.btn-tra:focus {
+	background-color: #00c1f0;
+	color: #fff;
+	border-color: #00c1f0;
+} 
+
+/*------------------------------------------*/
+/*	 SECTION TITLEBAR
+/*------------------------------------------*/
+
+.section-title,
+.section-title-thin {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.section-title h3 {
+	font-size: 30px;
+	line-height: 30px;
+	margin-bottom: 15px;
+}
+
+.section-title-thin h3 {
+	font-size: 30px;
+	line-height: 38px;
+	font-weight: 400;
+}
+
+.section-title-thin h4 {
+	color: #00c1f0;
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.section-title p { 
+	color: #555;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	padding: 0 25%;
+}
+
+.section-title-thin h3:after,
+.section-title p:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 60px;
+	background: #00c1f0;
+    margin: 20px auto 0;
+	margin-top: 20px;
+    position: relative;
+}
+
+/*------------------------------------------*/
+/*	 CONTENT COLOR
+/*------------------------------------------*/
+   
+.white-color h2, .white-color h3, 
+.white-color h4, .white-color h5, 
+.white-color p, .white-color a,
+.white-color i, .white-color span {
+	color: #fff;
+} 
+
+
+
+/* ==========================================================================
+   03. PRELOAD ANIMATION
+   ========================================================================== */
+   
+.animationload {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+	z-index: 999999; 
+}
+
+.loader {
+	position: absolute;
+	top: 50%; 
+	left: 50%; 
+	margin: -100px 0 0 -100px;
+	width: 172px;
+	height: 172px;
+	background-image: url(../images/icons/loader.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 72px 72px;
+} 
+
+
+
+/* ==========================================================================
+   04. HEADER & NAVIGATION
+   ========================================================================== */
+   
+.header {
+	margin-bottom: 60px;
+}
+
+.header.no-bg {
+	margin-bottom: 0px;
+	background-color: transparent;
+}
+
+/*------------------------------------------*/
+/*	 LOGO IMAGE    
+/*------------------------------------------*/
+
+.navbar-brand {
+	height: 60px;
+	padding: 19px 15px;
+}
+
+/*------------------------------------------*/
+/*	 NAVIGATION BAR    
+/*------------------------------------------*/
+
+.navbar {	
+	padding: 0px;
+	margin-bottom: 0;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	box-shadow: 0 0 2px rgba(30,30,30, 0.5);	
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+	z-index: 2000;
+}
+
+.header.no-bg .navbar {	
+	padding: 20px 0px;
+	box-shadow: 0 0;	
+} 
+
+/*------------------------------------------*/
+/*	 NAVIGATION MENU    
+/*------------------------------------------*/
+
+.navbar-nav > li > a {
+	font-size: 13px;
+	line-height: 60px;
+	font-weight: 900;
+	display: block;
+	padding: 0 12px;
+	text-transform: uppercase;
+} 
+
+/*------------------------------------------*/
+/*	 White / Grey Background
+/*------------------------------------------*/
+
+.bg-white .navbar-nav > li > a,
+.bg-grey .navbar-nav > li > a { 
+	color: #333; 
+}
+
+/*------------------------------------------*/
+/*	 Transparent / Dark background
+/*------------------------------------------*/
+
+.no-bg .navbar-nav > li > a { 
+	color: #fff; 
+}
+
+/*------------------------------------------*/
+/*	 Header Download Button
+/*------------------------------------------*/
+
+.navbar-nav > li > a.demos,
+.navbar-nav > li > a.download {	
+	background-color: transparent;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 900;
+	line-height: 22px;
+	margin-top: 12px;
+	padding: 5px 15px;
+	margin-left: 8px;
+	border: 2px solid #fff;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.navbar-nav > li > a.demos,
+.bg-grey .navbar-nav > li > a.download,
+.navbar-nav > li > a.download:hover {	
+	background-color: #00c1f0;
+	border-color: #00c1f0;
+}	
+
+.navbar-nav > li > a.download:hover {
+	color: #fff;
+}
+
+.navbar-nav > li > a.demos:hover,
+.bg-grey .navbar-nav > li > a.download:hover {
+	background-color: #444;
+	border-color: #444;
+	color: #fff;
+}
+
+/*------------------------------------------*/
+/*	 Navigation Menu Hover
+/*------------------------------------------*/
+
+.navbar-nav > li > a:hover {
+	color: #00c1f0;
+	background-color: transparent;
+}
+
+.navbar-nav > li > a:focus {
+	background-color: transparent;
+}
+
+.navbar-nav > li > a.demos:focus,
+.navbar-nav > li > a.download:focus {
+	background-color: #00c1f0;
+	border-color: #00c1f0;
+	color: #fff;
+}
+
+/*------------------------------------------*/
+/*	 Navbar Scroll   
+/*------------------------------------------*/
+
+.header.no-bg .navbar.scroll {
+	padding: 0px;
+	background-color: #fff;
+	box-shadow: 0 0 2px rgba(30,30,30, 0.5);	
+}
+
+.header.no-bg .navbar.scroll .navbar-nav > li > a {
+	color: #333;
+}
+
+.header.no-bg .navbar.scroll .navbar-nav > li > a.demos,
+.header.no-bg .navbar.scroll .navbar-nav > li > a.download {
+	background-color: #00c1f0;
+	border-color: #00c1f0;
+	color: #fff;
+}
+
+.header.no-bg .navbar.scroll .navbar-nav > li > a:hover {
+	color: #00c1f0;
+}
+
+.header.no-bg .navbar.scroll .navbar-nav > li > a.demos:hover,
+.header.no-bg .navbar.scroll .navbar-nav > li > a.download:hover {
+	background-color: #444;
+	border-color: #444;
+	color: #fff;
+}
+
+.header.no-bg .navbar.scroll .he_social:hover {
+	color: #fff;
+	background-color: #444;
+}
+
+/*------------------------------------------*/
+/*	 Responsive Menu Button    
+/*------------------------------------------*/
+
+.navbar-toggle {
+    position: relative;
+	background-color: transparent;
+    padding: 10px;
+	margin: 11px 30px 11px 0;
+	border: none;
+}
+
+/*------------------------------------------*/
+/*	 White/ Transparent Background
+/*------------------------------------------*/
+
+.no-bg .navbar-toggle,
+.bg-white .navbar-toggle {
+	color: #444;
+	border: 2px solid #444;
+}
+
+.no-bg .navbar-toggle .icon-bar,
+.bg-white .navbar-toggle .icon-bar {
+	background-color: #444;
+}
+
+/*------------------------------------------*/
+/*	 Logo Image
+/*------------------------------------------*/
+
+.logo-white, .logo-black {
+	display: block;
+}
+
+.header.bg-white .logo-white,
+.header.no-bg .navbar .logo-black,
+.header.no-bg .navbar.scroll .logo-white {
+	display: none;
+}
+
+.header.no-bg .navbar.scroll .logo-black {
+	display: block;
+}
+
+
+
+/* ==========================================================================
+   05. INTRO
+   ========================================================================== */
+
+.intro-section {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;		
+	background-size: cover;
+}
+
+#intro-1 {
+	background-image: url(../images/thumbs/intro-1.jpg);	
+}
+
+#intro-3 {
+	background-image: url(../images/thumbs/intro-3.jpg);	
+}
+
+#intro-4 {
+	background-image: url(../images/thumbs/intro-4.jpg);		
+}
+
+#intro-5 {
+	background-image: url(../images/thumbs/intro-5.jpg);		
+}
+
+#intro-6 {
+	background-image: url(../images/thumbs/intro-6.jpg);	
+}
+
+#intro-7 {
+	background-color: #00c1f0;
+	background-image: url(../images/thumbs/intro-7.png);	
+}
+
+#intro-8 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0px;
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+	padding: 0 !important;
+}
+
+#intro-9 {
+	background-image: url(../images/thumbs/intro-9.jpg);	
+}
+
+/*------------------------------------------*/
+/*	 INTRO OVERLAY
+/*------------------------------------------*/
+
+.overlay {
+	background-color: rgba(20, 20, 20, 0.45); 
+	height: 100%;
+}
+
+#intro-4 .overlay {
+	background-color: rgba(20, 20, 20, 0.65); 
+}
+
+#intro-7 .overlay {
+	background-color: rgba(20, 20, 20, 0); 
+}
+
+/*------------------------------------------*/
+/*	 INTRO CONTENT
+/*------------------------------------------*/
+
+#intro-1-content,
+#intro-2-content {
+	padding-top: 220px;
+	padding-bottom: 180px;
+}
+
+#intro-3-content,
+#intro-7-content {
+	padding-top: 240px;
+	padding-bottom: 200px;
+}
+
+#intro-4-content {
+	padding-top: 190px;
+	padding-bottom: 150px;
+}
+
+#intro-5 .intro_slider {
+	height: 680px;
+}
+
+#intro-6-content {
+	padding-top: 140px;
+	padding-bottom: 100px;
+}
+
+#intro-9-content {
+	padding-top: 150px;
+}
+
+/*------------------------------------------*/
+/*	 INTRO TEXT
+/*------------------------------------------*/
+
+#intro-6 .intro-txt {
+	margin-top: 60px;
+}
+
+/*------------------------------------------*/
+/*	 Intro Headers
+/*------------------------------------------*/ 
+
+.intro-txt h2 {
+	font-size: 54px;
+	line-height: 60px;
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+#intro-4 .intro-txt h2 {
+	font-size: 70px;
+	line-height: 75px;
+}
+
+#intro-5 .intro-txt h2 {
+	padding-top: 225px;
+}
+
+#intro-8 .intro-txt h2 {
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+#intro-8 .intro-txt h3 {	
+	font-size: 35px;
+	line-height: 35px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+#intro-9 .intro-txt h2 {
+	font-size: 42px;
+	line-height: 46px;
+	letter-spacing: 0.5px;
+}
+
+/*------------------------------------------*/
+/*	 Intro Paragraphs
+/*------------------------------------------*/
+
+.intro-txt p {
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 300;
+}
+
+#intro-9 .intro-txt p {
+	padding: 0 10%;
+}
+
+/*------------------------------------------*/
+/*	 INTRO REGISTER FORM 
+/*------------------------------------------*/
+
+#intro-form form {	
+	background-color: #333;
+	border: 1px solid #333;
+	padding: 35px 15px;
+	margin: 10px 15px 0 40px;
+}
+
+.form-control:focus {
+    border-color: #101010;
+	outline: 0px none;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+#intro-form h4 {
+	font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+	padding: 0 10px;
+}
+
+#intro-form p {
+	color: #aaa;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 0 40px;
+	margin-top: 20px;
+}
+
+#intro-form a {
+	color: #fff;
+	font-weight: 900;
+}
+
+#intro-form a:hover {
+	color: #439fe0;
+}
+
+/*------------------------------------------*/
+/*	  Register Form Input
+/*------------------------------------------*/
+
+#intro-form .form-control {
+	height: 48px;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	border: 1px solid #bbb;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	background-color: #eee;
+	color: #222;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	  Register Form Message
+/*------------------------------------------*/
+
+#intro-form .loading {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.error {
+	color: #e74c3c;
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+/*------------------------------------------*/
+/*	 Register Form Submit Button
+/*------------------------------------------*/
+
+#form_register_btn {
+	padding: 0 15px;
+	margin-bottom: 20px;
+}
+
+#form_register_btn .btn {
+	width: 100%;
+	display: block;
+	margin-top: 10px;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;	
+}
+
+#form_register_btn .btn:hover {
+	color: #fff;
+	background-color: transparent;
+	border-color: #fff;
+}
+
+#form_register_btn .btn:focus {
+	background-color: #00c1f0;
+	color: #fff;
+	border-color: #00c1f0;
+}
+
+/*------------------------------------------*/
+/*	 Intro Slider Rotator Nav
+/*------------------------------------------*/
+
+#intro-5 .flex-control-paging li a {
+	background: transparent;
+	border: 2px solid #ccc;
+}
+
+#intro-5 .flex-control-paging li a:hover { 
+	background: #ccc;
+	border: 2px solid #ccc;
+}
+
+#intro-5 .flex-control-paging li a.flex-active { 
+	background: #ccc;
+	border: 2px solid #ccc;
+}
+
+/*------------------------------------------*/
+/*	 Fullscreen Slider
+/*------------------------------------------*/
+
+#slides {
+	position: relative;
+}
+
+#slides .scrollable {
+	height: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+	*zoom: 1;
+	overflow-y: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+#slides .scrollable:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+#intro-8 .intro-txt {
+	width: 80%; 
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	padding: 50px 0;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+/*------------------------------------------*/
+/*	 Fullscreen Slider Navigation  
+/*------------------------------------------*/
+
+.slides-navigation {
+	width: 100%;
+    position: absolute;
+    z-index: 3;
+    top: 46%;
+}
+
+.slides-navigation a {
+    position: absolute;
+    display: block;
+}
+
+/*------------------------------------------*/
+/*	 Next Button  
+/*------------------------------------------*/
+
+.slides-navigation a.next {
+    right: 0px;
+}
+
+.slides-navigation .next.fa-angle-right {
+    color: #eee;
+    font-size: 70px;
+    opacity: 0.4;
+    margin-right: 30px;
+}
+
+/*------------------------------------------*/
+/*	 Previous Button
+/*------------------------------------------*/
+
+.slides-navigation a.prev {
+    left: 0px;
+}
+
+.slides-navigation .prev.fa-angle-left {
+    color: #ddd;
+    font-size: 70px;
+    opacity: 0.4;
+    margin-left: 30px;
+}
+
+/*------------------------------------------*/
+/*	 Buttons Hover  
+/*------------------------------------------*/
+
+.slides-navigation .next.fa-angle-right:hover,
+.slides-navigation .prev.fa-angle-left:hover {
+	 opacity: 0.85;
+}
+
+/*------------------------------------------*/
+/*	 SCROLL DOWN MOUSE  
+/*------------------------------------------*/
+
+.scroll-down {
+    display: block;
+	width: 100%;
+    position: absolute;
+    z-index: 99;  
+    left: 0px;
+    bottom: 5%;
+    text-transform: uppercase;
+    color: #ddd;
+    font-size: 13px;
+	font-weight: 700;
+    text-align: center;
+	-webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 1.8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 1.8s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 10px);}
+    to {-webkit-transform: translate(0, -0px);    }    
+}
+    
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 10px);}
+    to {-moz-transform: translate(0, -0px);}    
+}
+
+.mouse {
+    width: 18px;
+    height: 28px;
+	color: #ddd;
+	border: 2px solid #ddd;
+    border-radius: 9px;
+	-webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    display: block;
+    text-align: center;
+    margin: 0px auto 10px; 
+}
+
+
+
+/* ==========================================================================
+   06. SCROLL TO TOP
+   ========================================================================== */   
+   
+#scrollUp {
+	display: none;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-image: url(../images/icons/back-to-top.png);
+	background-repeat: no-repeat;
+	background-position: 50% 48%;
+	background-color: rgba(65, 65, 65, 0.85);
+	-webkit-transition: all 250ms linear;
+	-moz-transition: all 250ms linear;
+	transition: all 250ms linear;	
+}
+
+#scrollUp:hover {
+	background-color: #00c1f0;
+}
+
+nav a#pull {  
+    display: none;  
+}
